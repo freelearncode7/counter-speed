@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.card-item #img-center {
+    scale: 1.3;
+}
+
+.speed-counter {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.446);
+}
+
+.speed-counter span {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    animation: speed 1s 1 alternate;
+}
+
+.speed {
+    justify-content: center;
+    gap: 10%;
+    display: flex;
+}
+
+.speed img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+#speeder-down {
+    position: relative;
+}
